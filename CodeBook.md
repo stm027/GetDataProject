@@ -1,9 +1,9 @@
 The repository includes the following files:
 ============================================
--"README.md"
--"CodeBook.md"
--"run_analysis.R" - R Script to produce "tidydata.txt" from the original dataset (see next section)
--"tidydata.txt" - Tidy data set containing Mean and Standard Deviations for the 17 signals included in the original dataset averaged over activity and subject
+* "README.md"
+* "CodeBook.md"
+* "run_analysis.R" - R Script to produce "tidydata.txt" from the original dataset (see next section)
+* "tidydata.txt" - Tidy data set containing Mean and Standard Deviations for the 17 signals included in the original dataset averaged over activity and subject
 
 The following files are required but not included:
 ===============================================
@@ -13,9 +13,9 @@ The following files are required but not included:
 Tidydata.txt
 ============
 Tidydata.txt contains the average of each variable over activity and subject
-30 unique subjects were included and are identified by number
-6 activities were measured: walking, walking upstairs, walking downstairs, sitting, standing, and laying
-17 signals were measured (some in three axes each) with mean and standard deviation calculated for each.
+* 30 unique subjects were included and are identified by number
+* 6 activities were measured: walking, walking upstairs, walking downstairs, sitting, standing, and laying
+* 17 signals were measured (some in three axes each) with mean and standard deviation calculated for each.
 
 Signals (from "Feature Selection" README in original data)
 =================
@@ -29,28 +29,28 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 All data was produced by:
 "Human Activity Recognition Using Smartphones Dataset Version 1.0" 
