@@ -13,9 +13,9 @@ The following files are required but not included:
 Tidydata.txt
 ============
 Tidydata.txt contains the average of each variable over activity and subject
-* 30 unique subjects were included and are identified by number
-* 6 activities were measured: walking, walking upstairs, walking downstairs, sitting, standing, and laying
-* 17 signals were measured (some in three axes each) with mean and standard deviation calculated for each.
+* Column 1 - Activity - 6 activities were measured: walking, walking upstairs, walking downstairs, sitting, standing, and laying
+* Column 2 - Subject - 30 unique subjects were included and are identified by number
+* Columns 3:68 - Variables - 17 signals were measured (some in three axes each) with mean and standard deviation calculated for each.  More detail in the next section.
 
 Signals (from "Feature Selection" README in original data)
 =================
