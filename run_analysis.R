@@ -32,6 +32,7 @@ good.data[,2] <- sub(4,"SITTING",good.data[,2])
 good.data[,2] <- sub(5,"STANDING",good.data[,2])
 good.data[,2] <- sub(6,"LAYING",good.data[,2])
 
+#Melts the data and then casts it as a tidy data set of means by activity and subject
 melt.data <- melt(good.data,id.vars=c("Activity","Subject"))
 cast.data <- dcast(melt.data, Activity + Subject ~ variable, mean)
 
