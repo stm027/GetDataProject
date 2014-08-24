@@ -2,7 +2,7 @@ The repository includes the following files:
 ============================================
 * "README.md"
 * "CodeBook.md"
-* "run_analysis.R" - R Script to produce "tidydata.txt" from the original dataset (see next section)
+* "run_analysis.R" - R Script to produce "tidydata.txt" from the original dataset (see README.md)
 * "tidydata.txt" - Tidy data set containing Mean and Standard Deviations for the 17 signals included in the original dataset averaged over activity and subject
 
 The following files are required but not included:
